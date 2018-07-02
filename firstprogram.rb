@@ -121,34 +121,34 @@
 
 #-----------------------------------------------------------------#
 
-# name = "John"
+name = "John"
 
-# # if name != "Heather"
-# # 	puts "The name is not Heather"
-
-# # else
-# # 	puts "It's Heather!"
-# # end
-
-# unless name == "Heather"
+# if name != "Heather"
 # 	puts "The name is not Heather"
 
 # else
 # 	puts "It's Heather!"
 # end
 
+unless name == "Heather"
+	puts "The name is not Heather"
+
+else
+	puts "It's Heather!"
+end
+
+ 
+#  #--------------------------------------------------#
+
+# puts "Give me a color: "
+# color = gets.chomp.downcase
+
+# puts "Give me name"
+# name = gets.chomp.capitalize
 
 
 
-puts "Give me a color: "
-color = gets.chomp.downcase
-
-puts "Give me name"
-name = gets.chomp.capitalize
-
-
-
-puts "#{name}'s favorite color is #{color}"
+# puts "#{name}'s favorite color is #{color}"
 
 
 
